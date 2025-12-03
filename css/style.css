@@ -16,7 +16,7 @@ body.dark {
 body {
   line-height: 1px;
   font-size: 20px;
-  font-family: "poppins", sans-serif, "lato";
+  font-family: "poppins", sans-serif;
 }
 * {
   margin: 0px;
@@ -36,9 +36,7 @@ ul {
   background: var(--bg-black-900);
   min-height: 100vh;
   display: block;
-
   padding: 0 30px;
-
   opacity: 1;
 }
 .hidden {
@@ -111,6 +109,7 @@ ul {
   background: var(--skin-color);
   transition: all 0.3s ease;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 .btn:hover {
   transform: scale(1.05);
@@ -618,10 +617,10 @@ h3.my-profession {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 /* .img4 {
-  height: 180px;
-  object-fit: cover;
-  width: 50px;
-} */
+    height: 180px;
+    object-fit: cover;
+    width: 50px;
+  } */
 /* contact */
 .contact-title {
   font-size: 28px;
@@ -632,7 +631,6 @@ h3.my-profession {
   margin-bottom: 30px;
   padding: 10px;
   font-family: "Bebas Neue", sans-serif;
-
 }
 .section-title h2 {
   font-family: "Lobster", sans-serif;
@@ -668,7 +666,6 @@ h3.my-profession {
   font-weight: 700;
   text-transform: capitalize;
   margin: 15px 0 5px;
-  
 }
 .contact-info-item p {
   font-size: 20px;
@@ -843,7 +840,6 @@ footer {
   transform: scale(1.1);
 }
 
-/* Ensure footer is not trapped beside the aside */
 .main-content {
   width: 100%;
 }
