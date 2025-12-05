@@ -107,8 +107,8 @@
                 </h3>
                 <p>
                   I'm a web developer with extensive for over 2 years.My
-                  expertise is to create and website design,graphic
-                  design,vedio editor,and many more...
+                  expertise is to create and website design,graphic design,vedio
+                  editor,and many more...
                 </p>
                 <a href="#contact" class="btn hire-me">Hire Me</a>
               </div>
@@ -677,7 +677,8 @@
             });
 
             const data = await response.json();
-            alert(data.message); // success message
+            alert(data.message);
+            document.getElementById("contactForm").reset();
           } catch (error) {
             alert("Error sending message!");
           }
